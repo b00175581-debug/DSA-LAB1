@@ -15,5 +15,11 @@ public class TestList {
         System.out.println("Item at position 1: " + list.get(1));
         System.out.println("Item at position 2: " + list.get(2));
         System.out.println("Item at position 3: " + list.get(3));
+
+        list.remove(2);
+
+        System.out.println("List size after removing position 2: " + list.size());
+        System.out.println("Item at position 1: " + list.get(1));
+        System.out.println("Item at position 2: " + list.get(2));
     }
 }
